@@ -9,13 +9,30 @@
   /* border: 3px solid green; */
 }
 
+.slow{
+  margin-top: 50px;
+}
+
+.flow{
+  margin-top: 50px;
+}
+
 #flip {
   border: 1px solid black;
   box-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
   padding: 9px;
   /* margin: 0px; */
-  margin-left: 13px;
+  /* margin-left: 13px; */
+  justify-content: center;
 }
+
+.move{
+  margin-top: 50px;
+}
+
+
+
+
 
 .flip-box {
   background-color: transparent;
@@ -23,6 +40,7 @@
   height: 210px;
   border: 1px solid #f1f1f1;
   perspective: 1000px;
+  margin-left: 50px;
 }
 
 .flip-box-inner {
@@ -60,11 +78,10 @@
   transform: rotateY(180deg);
 }
 
-/* #Blocktext{
-  font-size: 71%;
-  font-weight: 200;
-} */
-
+#Blocktext{
+  font-size: 91%;
+  font-weight: 500;
+}
 #Androidtext{
   margin-top: 12% !important;
 }

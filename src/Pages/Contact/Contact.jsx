@@ -66,7 +66,7 @@ const Contact = () => {
       <ToastContainer />
       <section id="Contact">
         <div class="hero-content" data-aos="fade-up">
-          <h2>Let's Chat</h2>
+          <h2>Contact Us</h2>
         </div>
       </section>
       <br />
@@ -78,8 +78,8 @@ const Contact = () => {
         <div class="container">
           <div class="row">
             <div class="col-lg-6">
-              <h3>Let’s work together</h3>
-              <p>Thank you for being so awesome and thinking about us.</p>
+              <h3>Let us Strenghten your Monetary Reaches</h3>
+              <p>Just dial away or email us through the form.</p>
 
               <div class="mb-3n">
                 <h3>Send Us an Email</h3>
@@ -92,7 +92,7 @@ const Contact = () => {
               <div class="info-box  mb-4">
                 <i class="bx bx-envelope"></i>
                 <h3>Send Us an Email</h3>
-                <p><a href="mailto:info@pacific-fin.com" class="text-black">info@pacific-fin.com</a> </p>
+                <p><a href="mailto:info@tecstik.com" class="text-black">info@pacific-fin.com</a> </p>
 
               </div>
             </div>
@@ -101,7 +101,7 @@ const Contact = () => {
               <div class="info-box  mb-4">
                 <i class="bx bx-phone-call"></i>
                 <h3>Call Us</h3>
-                <p> +92-21 32442392</p>
+                <p> +92-21 32442392-93</p>
               </div>
             </div>
           </div>

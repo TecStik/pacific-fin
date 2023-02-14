@@ -15,12 +15,12 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "antd/dist/antd.min.css";
 import "./App.css";
 import { Helmet } from "react-helmet";
-
 export const App = () => {
   return (
     <BrowserRouter>
+    
       <Helmet>
-        <title>Pacific</title>
+        <title>Pacific Financial Services</title>
         <meta name="description" content="Propelling Business Growth" />
         <link rel="icon" href="./favicon.ico" type="image/x-icon" />
         <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />

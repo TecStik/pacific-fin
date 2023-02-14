@@ -254,10 +254,17 @@
 
 #aboutImage {
 
-  border-radius: 15px 15px 15px 15px;
-  box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
-  margin-left: 30%;
-  margin-top: 17%;
+  /* background-color: #0c2e8a; */
+  margin-left: 47%;
+  /* align-items: flex-end; */
+  margin-top: 25%;
+  /* display: flex;
+  align-items: flex-end; */
+  /* position: absolute;
+  right: 0px; */
+
+  /* margin-left: 11%; */
+  /* align-items: stretch */
 }
 
 
@@ -270,7 +277,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
     /* padding-bottom: 30px; */
   }
 }

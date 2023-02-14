@@ -3,12 +3,13 @@ import Footer from "../Footer/Footer"
 import Header from "../Header/Header"
 import './NewHome.css'
 
-import BlockcIcon from "../Images/BlockcIcon.png";
-import reactlogo from "../Images/reactlogo.png";
-// import bordaLabtop from "../Images/bordaLabtop.png";
-import HomeAnimat from "../../assets/HomeAnimat.png";
+import BlockcIcon from "../Images/reccy.png";
+import reactlogo from "../Images/BlockcIcon.png";
+import bordaLabtop from "../Images/bordaLabtop.png";
+import out from "../Images/out.png"
 
-import HomeCard from '../HomeCard/HomeCard'
+import HomeCard from '../HomeCard/HomeCard';
+import Pex from './pex.png'
 
 const NewHome = () => {
 
@@ -26,13 +27,13 @@ const NewHome = () => {
                         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
                             <p data-aos="fade-up">Pacific Financial Services
                             </p>
-                            <h2 data-aos="fade-up" data-aos-delay="400">Management & Financial Consultants</h2>
+                            <h2 data-aos="fade-up" data-aos-delay="400"> Financial & Management Consultants.</h2>
                             <div data-aos="fade-up" data-aos-delay="800">
                                 <Link to="/about" class="btn-get-started">About Us</Link>
                             </div>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-                            <img src={HomeAnimat} id="labtopImage"
+                            <img src={bordaLabtop} id="labtopImage"
                                 class="img-fluid animated" alt="" />
                         </div>
                     </div>
@@ -63,7 +64,7 @@ const NewHome = () => {
                                 <img src={BlockcIcon} alt="" data-aos="zoom-in" data-aos-delay="500" data-aos-anchor=".intro" class="aos-init aos-animate" />
                             </div>
                             <div class="col-6 col-md-2 col-sm-6">
-                                <img src="https://cncf-branding.netlify.app/img/projects/kubernetes/icon/black/kubernetes-icon-black.png" alt="" data-aos="zoom-in" data-aos-delay="0" data-aos-anchor=".intro" class="aos-init aos-animate" />
+                                <img src={out} alt="" data-aos="zoom-in" data-aos-delay="0" data-aos-anchor=".intro" class="aos-init aos-animate" />
                             </div>
                             {/* <!--
                 <div class="col-6 col-md-2 col-sm-6 d-none d-md-block">
@@ -79,7 +80,7 @@ const NewHome = () => {
                 <div class="container">
 
                     <div class="section-title" data-aos="fade-up">
-                        <h3 class="text-center">Technologies we use:</h3>
+                        <h3 class="text-center">Services we offer:</h3>
                         <p></p>
                     </div>
 
@@ -132,7 +133,7 @@ const NewHome = () => {
 
                     <div class="row">
                         <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
-                            <img src="https://bootstrapmade.com/demo/templates/FlexStart/assets/img/features-3.png" alt=""
+                            <img src={Pex} alt=""
                                 class="img-fluid" />
                         </div>
 
@@ -142,7 +143,7 @@ const NewHome = () => {
                                     <div class="col-md-6 d-md-flex align-items-md-stretch">
                                         <div class="count-box">
                                             <i class="bi bi-emoji-smile"></i>
-                                            <span data-purecounter-start="0" data-purecounter-end="84" data-purecounter-duration="1" class="purecounter">56</span>
+                                            <span data-purecounter-start="0" data-purecounter-end="84" data-purecounter-duration="1" class="purecounter">100+</span>
                                             <p><strong>Happy Clients</strong></p>
                                         </div>
                                     </div>
@@ -150,7 +151,7 @@ const NewHome = () => {
                                     <div class="col-md-6 d-md-flex align-items-md-stretch">
                                         <div class="count-box">
                                             <i class="bi bi-journal-richtext"></i>
-                                            <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter">56</span>
+                                            <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter">103</span>
                                             <p><strong>Projects</strong></p>
                                         </div>
                                     </div>
@@ -158,9 +159,9 @@ const NewHome = () => {
                                     <div class="col-md-6 d-md-flex align-items-md-stretch">
                                         <div class="count-box ">
                                             <i class="bi bi-clock"></i>
-                                            <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter">18</span>
+                                            <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter">21+</span>
                                             <p>
-                                                <strong>Years of experience</strong></p>
+                                                <strong>Years of Industry Experience</strong></p>
                                         </div>
                                     </div>
 

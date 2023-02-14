@@ -185,7 +185,7 @@ const Careers = () => {
 
               {/* <div class="mb-3n">
                 <h3>Send Us an Email</h3>
-                <p>info@pacific-fin.com</p>
+                <p>info@tecstik.com</p>
               </div> */}
             </div>
 
@@ -193,7 +193,7 @@ const Careers = () => {
               <div class="info-box  mb-4">
                 <i class="bx bx-envelope"></i>
                 <h3>Send Us an Email</h3>
-                <p><a href="mailto:info@pacific-fin.com" class="text-black">info@pacific-fin.com</a> </p>
+                <p><a href="mailto:info@tecstik.com" class="text-black">info@tecstik.com</a> </p>
               </div>
             </div>
 
@@ -201,7 +201,7 @@ const Careers = () => {
               <div class="info-box  mb-4">
                 <i class="bx bx-phone-call"></i>
                 <h3>Call Us</h3>
-                <p>+92-21 32442392</p>
+                <p>+92-21 32442392-93</p>
               </div>
             </div>
           </div>

@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import Footer from "../../Footer/Footer";
 import Header from "../../Header/Header";
 import "./Blockchain.css";
-import Jing from '../../Images/jing.png'
+import Sing from '../../Images/sing.png'
+import Tec from '../../Images/tec.png'
+import Ikmt from '../../Images/ikmt.png'
 
 
 const Blockchain = () => {
@@ -15,7 +17,6 @@ const Blockchain = () => {
       //  style={{ backgroundImage: `url(${BlockchainImage})` }}
       >
         <div class="hero-content" data-aos="fade-up">
-          <h2>Marketing Plus Company Limited Company (MPLC)</h2>
         </div>
       </section>
       <br />
@@ -58,16 +59,13 @@ const Blockchain = () => {
       <br /> */}
 
       {/* <!-- ======= Counts Section ======= --> */}
-      <section id="specials" class="specials">
+      <section id="specials" class="specials" className="up">
         <div class="container">
           <div class="specials-title">
             <h2>
-              Specializing <span>In :</span>
+              Our Associates
             </h2>
-            <p>
-              Marketing Plus is a Sister Company stationed in Hong Kong. It is
-              divided into 3 distinct sections as follows:
-            </p>
+            {/* <pF */}
           </div>
 
           <div class="row">
@@ -79,17 +77,17 @@ const Blockchain = () => {
                     // data-bs-toggle=""
                     onClick={() => setTrigger(0)}
                   >
-                    Indenting
+                    Marketing Plus
                   </a>
                 </li>
 
                 <li class="nav-item active show" onClick={() => setTrigger(1)}>
                   <a
-                    class="nav-link "
+                    class="nav-link"
                     // data-bs-toggle=""
                     onClick={() => setTrigger(1)}
                   >
-                    Trading
+                    IKnowMyToys
                   </a>
                 </li>
 
@@ -99,16 +97,16 @@ const Blockchain = () => {
                     // data-bs-toggle=""
                     onClick={() => setTrigger(2)}
                   >
-                    Services
+                    TecStik
                   </a>
                 </li>
-                <li class="nav-item active show" onClick={() => setTrigger(3)}>
+                {/* <li class="nav-item active show" onClick={() => setTrigger(3)}>
                   <a
                     class="nav-link"
                     // data-bs-toggle=""
                     onClick={() => setTrigger(3)}
                   >
-                    {/* Initial Coin Offering */}
+                    Initial Coin Offering
                   </a>
                 </li>
                 <li class="nav-item active show" onClick={() => setTrigger(4)}>
@@ -117,9 +115,9 @@ const Blockchain = () => {
                     // data-bs-toggle=""
                     onClick={() => setTrigger(4)}
                   >
-                    {/* Smart contract Audit */}
+                    Smart contract Audit
                   </a>
-                </li>
+                </li> */}
                 {/* <li class="nav-item active show" onClick={() => setTrigger(4)}>
                   <a
                     class="nav-link"
@@ -133,36 +131,31 @@ const Blockchain = () => {
             </div>
 
             <div class="col-lg-9 mt-4 mt-lg-0">
+              
               <div class="tab-content ">
                 {trigger === 0 ? (
                   <>
                     <div class="tab-pane active show">
                       <div class="row">
                         <div class="col-lg-8 details order-2 order-lg-1">
-                          <h3>Indenting</h3>
+                          
+                          <h3><strong>Marketing Plus</strong></h3>
                           <p class="fst-italic">
-                            This department acts as an agent between the
-                            stakeholders of The Products
+                          Marketing Plus is a Sister concern of Pacific Financial Services, stationed in Hong Kong. It is divided into 3 distinct sections as follows:
+                          <br></br>
+                          <strong>1. Indenting</strong> – This department acts as an agent between the stakeholders of The
+Products 
+<br></br>
+<strong>2. Trading</strong> – Import, local, sales, re-export
+<br></br>
+<strong>3. Services</strong> – Provides necessary feedback to buyers and sellers regarding a
+particular brand: IKnowMyToys.com.
                           </p>
-                          {/* <p>
-                            <ul>
-                              <li>
-                                Decentralized Exchanges (DEX) such as Uniswap
-                              </li>
-                              <li>
-                                Crypto lending and investment protocols such as
-                                AAve
-                              </li>
-                              <li>Liquidity mining and yield farming</li>
-                              <li>Derivatives protocols like DyDX and HEGIC</li>
-                            </ul>
-                            We assist our valued clients in the development of
-                            their DeFi ecosystem.
-                          </p> */}
+                         
                         </div>
                         <div class="col-lg-4 text-center order-1 order-lg-2">
                           <img
-                            src={Jing}
+                            src={Sing}
                             alt=""
                             class="img-fluid"
                             id="blockchinImage"
@@ -177,28 +170,14 @@ const Blockchain = () => {
                     <div class="tab-pane active show">
                       <div class="row">
                         <div class="col-lg-8 details order-2 order-lg-1">
-                          <h3>Trading</h3>
+                          <h3>IKnowMyToys</h3>
                           <p class="fst-italic">
-                            Import, local, sales, re-export
+                            IKnowMyToys was the first brand to bring toys from internationally renowned brands to Pakistan. Beginning its Journey in 2012, IKnowMyToys brought all sorts of Internationally Produced collectibles, STEM (Science Technology Engineering Mathematics), Remote Controlled (RC), Dolls & Family Playsets, etc. to Pakistan for the First Time Ever.
                           </p>
-                          {/* <p>
-                            <ul>
-                              <li>
-                                NFTs represent Certificates or Access Rights,
-                              </li>
-                              <li>
-                                NFTs represent entirely digital assets such as Digital Graphics or Audio and Visual Clips,
-                              </li>
-                              <li>
-                                NFTs represent certificates or access rights,
-                              </li>
-                            </ul>
-                            Our team has built NFTs of popular standards like ERC721, ERC1155, and others as they were introduced,
-                          </p> */}
                         </div>
                         <div class="col-lg-4 text-center order-1 order-lg-2">
                           <img
-                            src={Jing}
+                            src={Ikmt}
                             alt=""
                             class="img-fluid"
                             id="blockchinImage"
@@ -213,10 +192,15 @@ const Blockchain = () => {
                     <div class="tab-pane active show">
                       <div class="row">
                         <div class="col-lg-8 details order-2 order-lg-1">
-                          <h3>Services </h3>
+                          <h3>TecStik</h3>
                           <p class="fst-italic">
-                            Provides necessary feedback to buyers and sellers
-                            regarding the particular product of brand
+                          TecStik is The Fintech Arm of Pacific Financial Services with experience in
+working with several local and international clients. It offers services
+related to:
+MobileApps development
+Web App Development
+Cloud computing
+Digital Marketing
                           </p>
                           {/* <p>
                             <h5>Decentralized Finance (DeFi)</h5>
@@ -234,7 +218,7 @@ const Blockchain = () => {
                         </div>
                         <div class="col-lg-4 text-center order-1 order-lg-2">
                           <img
-                            src={Jing}
+                            src={Tec}
                             alt=""
                             class="img-fluid"
                             id="blockchinImage"
@@ -280,7 +264,7 @@ const Blockchain = () => {
                         </div>
                         <div class="col-lg-4 text-center order-1 order-lg-2">
                           <img
-                            src={Jing}
+                            src={Sing}
                             alt=""
                             class="img-fluid"
                             id="blockchinImage"
@@ -310,13 +294,13 @@ const Blockchain = () => {
                           </p> */}
                         </div>
                         <div class="col-lg-4 text-center order-1 order-lg-2">
-                          <img
-                            src={Jing}
+                          {/* <img
+                            src={}
                             alt=""
                             class="img-fluid"
                             id="blockchinImage"
                             height={10}
-                          />
+                          /> */}
                         </div>
                       </div>
                     </div>

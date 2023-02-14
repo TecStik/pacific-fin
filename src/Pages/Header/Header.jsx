@@ -3,12 +3,11 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 import { Col, Row } from "antd";
 import logo from "../Images/logo2.png";
-import Pacficlogo from "../../assets/Pacficlogo.png";
 
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [navSize, setnavSize] = useState("10rem");
+  const [navSize, setnavSize] = useState("13rem");
   const [navColor, setnavColor] = useState("transparent");
   const [navItemColor, setnavItemColor] = useState("#fff");
 
@@ -41,62 +40,60 @@ const Header = () => {
           <span className="nav-logo" id="nav-logo">
 
             <Link to="/">
-              <img src={Pacficlogo} class="mt-1" height={77} width={90} />
+              <img src={logo}  height={55} width={55} />
             </Link>
           </span>
-          <span id="logotext"><Link to="/" id="textColor">Pacific</Link></span>
+          <span id="logotext"><Link to="/" id="textColor">Pacific Financial Services (Pvt.) Limited</Link></span>
 
           <div className={`nav-items ${isOpen && "open"}`}>
             <Link to="/">Home</Link>
 
-            <Link to="/about">About</Link>
+            <Link to="/about">About Us</Link>
+            <Link to="/Blockchain">Our Associates</Link>
             <div class="dropdown">
-              <div id="services" className="nav-items">
+              {/* <div id="services" className="nav-items">
                 Our Associates
                 <img
                   src="https://icon-library.com/images/dropdown-menu-icon/dropdown-menu-icon-12.jpg"
                   height={20}
                 />
-              </div>
+              </div> */}
 
-              <div class="dropdown-content">
+              {/* <div class="dropdown-content">
                 <Row>
                   <Col span={12}>
                     {" "}
                     <Link to="/blockchain" >
-                      Blockchain Development
-                    </Link>
-                  </Col>
+                      Marketing Plus
+                    </Link> 
+                  </Col> 
 
                   <Col span={12}>
-                    <Link to="/mobileApp"> Mobile App Development </Link>
+                    <Link to="/mobileApp"> IKnowMyToys </Link>
                   </Col>
                 </Row>
 
                 <Row>
                   <Col span={12}>
-                    <Link to="/WebAndMobile">Web Development</Link>
+                    <Link to="/WebAndMobile">TecStik</Link>
                   </Col>
-                  {/* <Col span={12}>
+                  <Col span={12}>
                     {" "}
                     <Link to="/GraphicDesigning">Graphic Designing</Link>
-                  </Col> */}
-                  <Col span={12}>
-                    {" "}
-                    <Link to="/cloud">Cloud Computing</Link>
-                  </Col>
+                  </Col> 
+                  
                 </Row>
 
                 <Row>
-                  {/* <Col span={12}>
+                  <Col span={12}>
                     <Link to="/ContentWriting">Content Writing</Link>
-                  </Col> */}
-                  {/* <Col span={12}>
+                  </Col> 
+                   <Col span={12}>
                     {" "}
                     <Link to="/DigitalMarketing"> Digital Marketing</Link>
-                  </Col> */}
+                  </Col> 
                 </Row>
-              </div>
+              </div> */}
             </div>
 
             {/* <div class="dropdown">
@@ -137,11 +134,11 @@ const Header = () => {
             {/* </div>
             </div> */}
 
-            <Link to="/product">Services</Link>
-            <Link to="/portfolio">Portfolio</Link>
+            <Link to="/product">Our Services</Link>
+            {/* <Link to="/portfolio">Contact</Link>
 
             <Link to="/careers">Careers</Link>
-            <Link to="/blog">Blog</Link>
+            <Link to="/blog">Blog</Link> */}
             <Link to="/contact">Contact Us</Link>
           </div>
           <div

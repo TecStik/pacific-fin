@@ -19,7 +19,7 @@ const Product = () => {
         }}
       >
         <div class="hero-Product" data-aos="fade-up">
-          <h2>Products</h2>
+          <h2>Our Services</h2>
         </div>
       </section>
       <br />
@@ -38,7 +38,6 @@ const Product = () => {
               adipisci expedita at voluptas atque vitae autem.
             </p>
           </div> */}
-
           <div class="row">
             <div class="col-lg-3">
               <ul class="nav nav-tabs flex-column">
@@ -48,14 +47,12 @@ const Product = () => {
                     onClick={() => setTrigger(0)}>Short Term and Long-Term Finance
                   </a>
                 </li>
-
                 <li class="nav-item active show" onClick={() => setTrigger(1)}>
                   <a class="nav-link "
                     // data-bs-toggle=""
                     onClick={() => setTrigger(1)}>Pre IPO and Initial Public Offerings
                   </a>
                 </li>
-
                 <li class="nav-item active show" onClick={() => setTrigger(2)}>
                   <a class="nav-link"
                     // data-bs-toggle=""
@@ -71,7 +68,6 @@ const Product = () => {
                     Feasibility Studies
                   </a>
                 </li>
-
                 <li class="nav-item active show" onClick={() => setTrigger(4)}>
                   <a
                     class="nav-link"
@@ -110,7 +106,6 @@ const Product = () => {
                 </li>
               </ul>
             </div>
-
             <div class="col-lg-9 mt-4 mt-lg-0">
               <div class="tab-content ">
                 {trigger === 0 ? (
@@ -120,8 +115,12 @@ const Product = () => {
                         <div class="col-lg-8 details order-2 order-lg-1">
                           <h3>Short Term and Long-Term Finance</h3>
                           <p class="fst-italic">
-                            We help our clients secure Short-term and long-term financing
-                            from our partnered financial institutions
+                          At Pacific Financial Services, we specialize in securing tailored short-
+term and long-term financing solutions for our clients through our 
+extensive network of partnered financial institutions. 
+With our expertise in financial analysis and strategy, we are committed
+to helping our clients achieve their business goals and grow their 
+ventures.
                           </p>
                         </div>
                         <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -142,13 +141,16 @@ const Product = () => {
                         <div class="col-lg-8 details order-2 order-lg-1">
                           <h3>Pre IPO and Initial Public Offerings</h3>
                           <p class="fst-italic">
-                            We help our client raise equity financing vial issuance of shares
-                            on Stock Exchanges
+                          As a trusted partner, Pacific Financial Services  provides 
+comprehensive advisory services to our clients seeking to raise equity 
+financing through pre IPO and Initial Public Offerings. 
+We offer strategic guidance and support throughout the process, 
+ensuring that our clients have the best chance of success in the 
+competitive world of capital markets.
                           </p>
                           {/* <p>
                             <h5>Decentralized Finance (DeFi)</h5>
                             Our team have extensive experience in working on  various popular Defi protocols including
-
                             <ul>
                               <li>Decentralized Exchanges DEX such as Uniswap,</li>
                               <li>cryoto lending and investment  protocols such asAAve</li>
@@ -156,7 +158,6 @@ const Product = () => {
                               <li>Derivatives protocols like DyDX and HEGIC</li>
                             </ul>
                             We help our valued clients in the development of their DeFi ecosystem.
-
                           </p> */}
                         </div>
                         <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -177,15 +178,16 @@ const Product = () => {
                         <div class="col-lg-8 details order-2 order-lg-1">
                           <h3>Structured Finance</h3>
                           <p class="fst-italic">
-                            Apart from using your physical assets for collateral, we guide you
-                            on how you can use your cash flows for the same purpose.
-                            Benefit from using your liquid assets as opposed to your illiquid
-                            infrastructure as a substitute financing means.
+                          At Pacific Financial Services, we provide innovative structured 
+finance solutions to our clients by utilizing their cash flows as collateral
+instead of their physical assets. Our team of experts works closely with
+our clients to design tailored financing structures that best suit their 
+unique business needs, providing them with access to the liquidity 
+they need while preserving their valuable assets.
                           </p>
                           {/* <p>
                             <h5>Decentralized Finance (DeFi)</h5>
                             Our team have extensive experience in working on  various popular Defi protocols including
-
                             <ul>
                               <li>Decentralized Exchanges DEX such as Uniswap,</li>
                               <li>cryoto lending and investment  protocols such asAAve</li>
@@ -193,7 +195,6 @@ const Product = () => {
                               <li>Derivatives protocols like DyDX and HEGIC</li>
                             </ul>
                             We help our valued clients in the development of their DeFi ecosystem.
-
                           </p> */}
                         </div>
                         <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -214,13 +215,15 @@ const Product = () => {
                         <div class="col-lg-8 details order-2 order-lg-1">
                           <h3>Feasibility Studies</h3>
                           <p class="fst-italic">
-                            We assist our clients in preparation of feasibility studies for their
-                            green field as well as existing on going modernization
+                          We specialize in providing comprehensive feasibility study services to 
+our clients, covering both greenfield and existing projects. Our team of 
+experienced analysts conducts in-depth research and analysis to 
+determine the viability of projects and provide our clients with sound 
+recommendations to help them make informed business decisions.
                           </p>
                           {/* <p>
                             <h5>Decentralized Finance (DeFi)</h5>
                             Our team have extensive experience in working on  various popular Defi protocols including
-
                             <ul>
                               <li>Decentralized Exchanges DEX such as Uniswap,</li>
                               <li>cryoto lending and investment  protocols such asAAve</li>
@@ -228,7 +231,6 @@ const Product = () => {
                               <li>Derivatives protocols like DyDX and HEGIC</li>
                             </ul>
                             We help our valued clients in the development of their DeFi ecosystem.
-
                           </p> */}
                         </div>
                         <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -249,14 +251,15 @@ const Product = () => {
                         <div class="col-lg-8 details order-2 order-lg-1">
                           <h3>Derivative instruments</h3>
                           <p class="fst-italic">
-                            We advise our valued corporate clients on the utilization of
-                            Derivative instruments including options, futures and IR swaps
-                            best suited to their business needs.
+                          As a trusted financial advisor, we guide our corporate clients on the 
+utilization of derivative instruments, including options, futures, and 
+interest rate swaps, to help them manage risk and achieve their 
+financial goals. We work closely with our clients to design customized 
+solutions that align with their business strategies and objectives.
                           </p>
                           {/* <p>
                             <h5>Decentralized Finance (DeFi)</h5>
                             Our team have extensive experience in working on  various popular Defi protocols including
-
                             <ul>
                               <li>Decentralized Exchanges DEX such as Uniswap,</li>
                               <li>cryoto lending and investment  protocols such asAAve</li>
@@ -264,7 +267,6 @@ const Product = () => {
                               <li>Derivatives protocols like DyDX and HEGIC</li>
                             </ul>
                             We help our valued clients in the development of their DeFi ecosystem.
-
                           </p> */}
                         </div>
                         <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -285,13 +287,15 @@ const Product = () => {
                         <div class="col-lg-8 details order-2 order-lg-1">
                           <h3>Treasury and Money Market</h3>
                           <p class="fst-italic">
-                            We help our corporate clients and partner financial institutions in
-                            the liquidity management. With short-term placements
+                          At Pacific, we offer a wide range of treasury and money market 
+services to our corporate clients and partner financial institutions. Our 
+services include short-term placements, liquidity management, and 
+risk mitigation strategies to help our clients optimize their cash 
+management and achieve their financial objectives.
                           </p>
                           {/* <p>
                             <h5>Decentralized Finance (DeFi)</h5>
                             Our team have extensive experience in working on  various popular Defi protocols including
-
                             <ul>
                               <li>Decentralized Exchanges DEX such as Uniswap,</li>
                               <li>cryoto lending and investment  protocols such asAAve</li>
@@ -299,7 +303,6 @@ const Product = () => {
                               <li>Derivatives protocols like DyDX and HEGIC</li>
                             </ul>
                             We help our valued clients in the development of their DeFi ecosystem.
-
                           </p> */}
                         </div>
                         <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -320,14 +323,14 @@ const Product = () => {
                         <div class="col-lg-8 details order-2 order-lg-1">
                           <h3>Business Process Outsourcing</h3>
                           <p class="fst-italic">
-                            We help our clients with  the outsourcing of  various back office
-                            tasks, while they can continue focussing on their core business
-                            areas
+                          We understand that our clients' time and resources are valuable, which
+is why we offer comprehensive business process outsourcing services. 
+Our team of skilled professionals can help with various back-office 
+tasks, freeing up our clients to focus on their core business areas.
                           </p>
                           {/* <p>
                             <h5>Decentralized Finance (DeFi)</h5>
                             Our team have extensive experience in working on  various popular Defi protocols including
-
                             <ul>
                               <li>Decentralized Exchanges DEX such as Uniswap,</li>
                               <li>cryoto lending and investment  protocols such asAAve</li>
@@ -335,7 +338,6 @@ const Product = () => {
                               <li>Derivatives protocols like DyDX and HEGIC</li>
                             </ul>
                             We help our valued clients in the development of their DeFi ecosystem.
-
                           </p> */}
                         </div>
                         <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -356,22 +358,15 @@ const Product = () => {
                         <div class="col-lg-8 details order-2 order-lg-1">
                           <h3>Islamic Financial Advisory</h3>
                           <p class="fst-italic">
-                            We provide financial consultancy for our customers interested in
-                            raising their debt or placing their excess liquidity through Islamic
-                            Mode by structuring specialized instruments such as:
-                          </p>
-                          <ul>
-                            <li>Musharika</li>
-                            <li>Murabaha</li>
-                            <li>Ijara</li>
-                            <li>Sukuks</li>
-                          </ul>
+                          As a leading financial consultancy firm, we specialize in providing Islamic 
+financial advisory services to our clients. We assist our customers in raising 
+debt and placing excess liquidity through Islamic modes by structuring 
+specialized instruments, such as Mudarabah, Musharakah, and Ijarah, to help
+them achieve their financial goals while adhering to their values and beliefs</p>
                           {/* <p>
                             <h5>Decentralized Finance (DeFi)</h5>
                             Our team have extensive experience in working on  various popular Defi protocols including
-
                             We help our valued clients in the development of their DeFi ecosystem.
-
                           </p> */}
                         </div>
                         <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -390,13 +385,9 @@ const Product = () => {
                 )}
               </div>
             </div>
-
-
-
           </div>
         </div>
-      </section >
-      <br />
+      </section >      <br />
       <br />
       <br />
       <br />

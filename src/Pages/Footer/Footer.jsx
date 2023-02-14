@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
 
@@ -12,17 +13,7 @@ export default function Footer() {
         <section class="d-flex justify-content-between p-4" style={{ background: "#6351ce" }}>
           <div class="me-5"></div>
           <div>
-            <a href={() => false} class="text-white me-3"> Find us online :</a>
-            <a href="https://www.facebook.com/profile.php?id=100087185961853" target="_blank" class="text-white me-4">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://twitter.com/Tec_Stik" target="_blank" class="text-white me-4">
-              <i class="fab fa-twitter"></i>
-            </a>
-
-            <a href="https://www.linkedin.com/company/tecstik/about/?viewAsMember=true" target="_blank" class="text-white me-4">
-              <i class="fab fa-linkedin"></i>
-            </a>
+            
           </div>
         </section>
 
@@ -31,12 +22,13 @@ export default function Footer() {
           <div class="container text-center text-md-start mt-5">
             <div class="row mt-3">
               <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold text-white">TecStik</h6>
+                <h6 class="text-uppercase fw-bold text-white">Pacific Financial Services PVT. LTD.</h6>
                 <hr class="mb-4 mt-0 d-inline-block mx-auto" style={{ background: "#7c4dff", height: 2, width: 60 }} />
                 <p>
-                  Experienced professionals providing technology solutions to enhance your organization's workflows.
-                  From building FIntech Apps for the mass market to creating tailored Fintech Software, TecStik ensures
-                  that your business functions optimally.
+                Incorporated in the year 2002 under the Companies Ordinance 1984, we are
+dedicated to providing a wide range of Financial Services to High Net Worth
+
+Individuals and Corporate Clients.
 
                 </p>
               </div>
@@ -44,15 +36,15 @@ export default function Footer() {
 
               <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
-                <h6 class="text-uppercase fw-bold text-white">Products</h6>
+                <h6 class="text-uppercase fw-bold text-white">Our Services</h6>
                 <hr
                   class="mb-4 mt-0 d-inline-block mx-auto"
                   style={{ background: "#7c4dff", height: 2, width: 60 }}
                 />
                 <p>
-                  <a href={() => false} class="text-white">
-                    KollectIt
-                  </a>
+                <Link to="/Product" className="link">
+                    Business Process Outsourcing
+                  </Link>
                 </p>
                 {/* <p>
                   <a href={() => false} class="text-white">
@@ -65,39 +57,44 @@ export default function Footer() {
                   </a>
                 </p> */}
                 <p>
-                  <a href={() => false} class="text-white">
-                    IJma
-                  </a>
+                <Link to="/Product" className="link">
+                    Corporate Financial Consultancy
+                  </Link>
+                </p>
+                <p>
+                <Link to="/Product" className="link">
+                    Islamic Financial Consultancy
+                  </Link>
                 </p>
               </div>
 
 
               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold text-white ">Services </h6>
+                {/* <h6 class="text-uppercase fw-bold text-white ">Services </h6>
                 <hr
                   class="mb-4 mt-0 d-inline-block mx-auto"
                   style={{ background: "#7c4dff", height: 2, width: 60 }}
                 />
                 <p>
                   <a href={() => false} class="text-white">
-                    {/* Blockchain Development */}
+                    Blockchain Development
                   </a>
                 </p>
                 <p>
                   <a href={() => false} class="text-white">
-                    {/* Full Stack Development */}
+                    Full Stack Development
                   </a>
                 </p>
                 <p>
                   <a href={() => false} class="text-white">
-                    {/* Mobile Apps Development */}
+                    Mobile Apps Development
                   </a>
                 </p>
                 <p>
                   <a href={() => false} class="text-white">
-                    {/* Cloud Computing */}
+                    Cloud Computing
                   </a>
-                </p>
+                </p> */}
               </div>
 
 
@@ -110,14 +107,14 @@ export default function Footer() {
                 />
                 <p>
                   <i class="fas fa-home mr-3"></i> Business
-                  Centre, II Chundrigar Road
+                  Centre, II Chundrigar Road, Karachi, Sindh, Pakistan
                 </p>
                 <p>
                   <i class="fas fa-envelope mr-3"></i>
                   <a href="mailto:info@pacific-fin.com" class="text-white">info@pacific-fin.com</a>
                 </p>
                 <p>
-                  <i class="fas fa-phone mr-3"></i> +9221 32442392
+                  <i class="fas fa-phone mr-3"></i> (92-21) 32442392-93
                 </p>
               </div>
             </div>
@@ -129,9 +126,9 @@ export default function Footer() {
           class="text-center p-3"
           style={{ background: "rgba(0, 0, 0, 0.2)" }}
         >
-          © 2022 Copyright :
+          © 2001 Copyright :
           <a class="text-white ml-2" href={() => false}>
-            TecStik.com
+            pacific-fin.com
           </a>
         </div>
         {/* <!-- Copyright --> */}
