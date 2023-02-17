@@ -26,7 +26,7 @@ export default function HomeCard() {
                 <div className="flip-box-front">
                   <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
                     <img src={BlockChain} alt="" srcset="" height={80} />
-                    <h4 class="title"><Link to="/Product">Corporate Finance Advisory </Link></h4>
+                    <h4 class="title"><Link to="/services">Corporate Finance Advisory </Link></h4>
                     <p class="description"></p>
                   </div>
                 </div>
@@ -37,8 +37,8 @@ export default function HomeCard() {
                       <thead>
                         <tr>
 
-                          <p className="move"><Link to="/Product" class="text-white" id="Blocktext">Offering you faithful, precise guidance and resolutions to tackle
-your Financial Activities head on</Link></p>
+                          <p className="move"><Link to="/services" class="text-white" id="Blocktext">Offering you faithful, precise guidance and resolutions to tackle
+your financial activities head on</Link></p>
                         {/* </tr>
                         <tr>
                           <th>
@@ -92,7 +92,7 @@ your Financial Activities head on</Link></p>
                 <div className="flip-box-front">
                   <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
                     <img src={Nice} alt="" srcset="" height={80} />
-                    <h4 class="title"><Link to="/Product">Islamic Financial Advisory</Link></h4>
+                    <h4 class="title"><Link to="/services">Islamic Financial Advisory</Link></h4>
                     <p class="description"></p>
                   </div>
                 </div>
@@ -101,7 +101,7 @@ your Financial Activities head on</Link></p>
                     <table >
                       <thead>
                         <tr >
-                        <p className="move"><Link to="/Product" class="text-white" id="Blocktext">We provide financial consultancy for our customers interested in
+                        <p className="move"><Link to="/services" class="text-white" id="Blocktext">We provide financial consultancy for our customers interested in
 raising their debt or placing their excess liquidity through The Islamic
 Mode of Business</Link></p>
                         </tr>
@@ -129,7 +129,7 @@ Mode of Business</Link></p>
                   </div>
                 </div>
                 <div class="flip-box-back">
-                <tr className="slow"><p className="move"><Link to="/Product" class="text-white" id="Blocktext">
+                <tr className="slow"><p className="move"><Link to="/services" class="text-white" id="Blocktext">
                 Business Process Outsourcing for companies seeking to outsource their back-
 office operations.</Link></p>
                         </tr>

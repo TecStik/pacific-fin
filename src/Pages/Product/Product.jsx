@@ -114,13 +114,13 @@ const Product = () => {
                       <div class="row">
                         <div class="col-lg-8 details order-2 order-lg-1">
                           <h3>Short Term and Long-Term Finance</h3>
-                          <p class="fst-italic">
-                          At Pacific Financial Services, we specialize in securing tailored short-
-term and long-term financing solutions for our clients through our 
-extensive network of partnered financial institutions. 
-With our expertise in financial analysis and strategy, we are committed
-to helping our clients achieve their business goals and grow their 
-ventures.
+                          <p style={{ fontSize: '20px' }}>
+                            At Pacific Financial Services, we specialize in securing tailored short-
+                            term and long-term financing solutions for our clients, through our
+                            extensive network of partnered financial institutions. <br></br><br></br>
+                            As experts in financial analysis and strategy, we are committed
+                            to helping our clients achieve their business goals and grow their
+                            ventures.
                           </p>
                         </div>
                         <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -140,13 +140,13 @@ ventures.
                       <div class="row">
                         <div class="col-lg-8 details order-2 order-lg-1">
                           <h3>Pre IPO and Initial Public Offerings</h3>
-                          <p class="fst-italic">
-                          As a trusted partner, Pacific Financial Services  provides 
-comprehensive advisory services to our clients seeking to raise equity 
-financing through pre IPO and Initial Public Offerings. 
-We offer strategic guidance and support throughout the process, 
-ensuring that our clients have the best chance of success in the 
-competitive world of capital markets.
+                          <p p style={{ fontSize: '20px' }}>
+                            As a trusted partner, Pacific Financial Services  provides
+                            comprehensive advisory services to our clients seeking to raise equity
+                            financing through pre IPO and Initial Public Offerings. <br></br><br></br>
+                            We offer strategic guidance and support throughout the process,
+                            ensuring that our clients have the best chance of success in the
+                            competitive world of capital markets.
                           </p>
                           {/* <p>
                             <h5>Decentralized Finance (DeFi)</h5>
@@ -177,13 +177,14 @@ competitive world of capital markets.
                       <div class="row">
                         <div class="col-lg-8 details order-2 order-lg-1">
                           <h3>Structured Finance</h3>
-                          <p class="fst-italic">
-                          At Pacific Financial Services, we provide innovative structured 
-finance solutions to our clients by utilizing their cash flows as collateral
-instead of their physical assets. Our team of experts works closely with
-our clients to design tailored financing structures that best suit their 
-unique business needs, providing them with access to the liquidity 
-they need while preserving their valuable assets.
+                          <p style={{ fontSize: '20px' }}>
+                            Our company provides innovative & structured
+                            finance solutions to our clients by utilizing their cash flows as collateral,
+                            instead of their physical assets.
+                            <br></br><br></br>Our team of experts works closely with
+                            our clients to design tailored financing structures that best suit their
+                            unique business needs, providing them with access to the liquidity
+                            they need while preserving their valuable assets.
                           </p>
                           {/* <p>
                             <h5>Decentralized Finance (DeFi)</h5>
@@ -214,12 +215,12 @@ they need while preserving their valuable assets.
                       <div class="row">
                         <div class="col-lg-8 details order-2 order-lg-1">
                           <h3>Feasibility Studies</h3>
-                          <p class="fst-italic">
-                          We specialize in providing comprehensive feasibility study services to 
-our clients, covering both greenfield and existing projects. Our team of 
-experienced analysts conducts in-depth research and analysis to 
-determine the viability of projects and provide our clients with sound 
-recommendations to help them make informed business decisions.
+                          <p p style={{ fontSize: '20px' }}>
+                            We specialize in providing comprehensive feasibility study services to
+                            our clients, covering both greenfield and existing projects. <br></br><br></br>Our team of
+                            experienced analysts conducts in-depth research and analysis to
+                            determine the viability of projects while providing our clients with sound
+                            recommendations to help them make informed business decisions.
                           </p>
                           {/* <p>
                             <h5>Decentralized Finance (DeFi)</h5>
@@ -235,7 +236,7 @@ recommendations to help them make informed business decisions.
                         </div>
                         <div class="col-lg-4 text-center order-1 order-lg-2">
                           <img
-                            src={KollectIt}
+                            src={Ijma}
                             alt=""
                             class="img-fluid"
                             height={10}
@@ -250,12 +251,12 @@ recommendations to help them make informed business decisions.
                       <div class="row">
                         <div class="col-lg-8 details order-2 order-lg-1">
                           <h3>Derivative instruments</h3>
-                          <p class="fst-italic">
-                          As a trusted financial advisor, we guide our corporate clients on the 
-utilization of derivative instruments, including options, futures, and 
-interest rate swaps, to help them manage risk and achieve their 
-financial goals. We work closely with our clients to design customized 
-solutions that align with their business strategies and objectives.
+                          <p style={{ fontSize: '20px' }}>
+                            As a trusted financial advisor, we guide our corporate clients when they are
+                            utilizing their derivative instruments including options, futures, and
+                            interest rate swaps.<br></br><br></br> We assist them to manage risks and achieve their
+                            financial goals. Working closely with our clientele to design customized
+                            solutions that align with their business strategies and objectives.
                           </p>
                           {/* <p>
                             <h5>Decentralized Finance (DeFi)</h5>
@@ -286,12 +287,12 @@ solutions that align with their business strategies and objectives.
                       <div class="row">
                         <div class="col-lg-8 details order-2 order-lg-1">
                           <h3>Treasury and Money Market</h3>
-                          <p class="fst-italic">
-                          At Pacific, we offer a wide range of treasury and money market 
-services to our corporate clients and partner financial institutions. Our 
-services include short-term placements, liquidity management, and 
-risk mitigation strategies to help our clients optimize their cash 
-management and achieve their financial objectives.
+                          <p style={{ fontSize: '20px' }}>
+                            At Pacific, we offer a wide range of treasury and money market
+                            services to our corporate clients and partnered financial institutions.<br></br><br></br> Our
+                            services include short-term placements, liquidity management, and
+                            risk mitigation strategies to help our clients optimize their cash
+                            management and achieve their financial objectives.
                           </p>
                           {/* <p>
                             <h5>Decentralized Finance (DeFi)</h5>
@@ -322,11 +323,11 @@ management and achieve their financial objectives.
                       <div class="row">
                         <div class="col-lg-8 details order-2 order-lg-1">
                           <h3>Business Process Outsourcing</h3>
-                          <p class="fst-italic">
-                          We understand that our clients' time and resources are valuable, which
-is why we offer comprehensive business process outsourcing services. 
-Our team of skilled professionals can help with various back-office 
-tasks, freeing up our clients to focus on their core business areas.
+                          <p style={{ fontSize: '20px' }}>
+                            We understand that our clients' time and resources are valuable, which
+                            is why we offer comprehensive Business Process Outsourcing Services.
+                            Our team of skilled professionals can help with various back-office
+                            tasks, freeing up our clients to focus on their core business areas.
                           </p>
                           {/* <p>
                             <h5>Decentralized Finance (DeFi)</h5>
@@ -357,12 +358,12 @@ tasks, freeing up our clients to focus on their core business areas.
                       <div class="row">
                         <div class="col-lg-8 details order-2 order-lg-1">
                           <h3>Islamic Financial Advisory</h3>
-                          <p class="fst-italic">
-                          As a leading financial consultancy firm, we specialize in providing Islamic 
-financial advisory services to our clients. We assist our customers in raising 
-debt and placing excess liquidity through Islamic modes by structuring 
-specialized instruments, such as Mudarabah, Musharakah, and Ijarah, to help
-them achieve their financial goals while adhering to their values and beliefs</p>
+                          <p style={{ fontSize: '20px' }}>
+                            As a leading financial consultancy firm, we specialize in providing Islamic
+                            Financial Advisory services to our clients. We assist our customers with Raising
+                            Debt and Placing Excess Liquidity through Islamic modes, by structuring
+                            specialized instruments, such as Mudarabah, Musharakah, and Ijarah, to help
+                            them achieve their financial goals while Adhering to their Values and Beliefs</p>
                           {/* <p>
                             <h5>Decentralized Finance (DeFi)</h5>
                             Our team have extensive experience in working on  various popular Defi protocols including

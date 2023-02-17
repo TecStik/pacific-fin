@@ -78,7 +78,7 @@ const Contact = () => {
         <div class="container">
           <div class="row">
             <div class="col-lg-6">
-              <h3>Let us Strenghten your Monetary Reaches</h3>
+              <h3>Let's strengthen your organization together</h3>
               <p>Just dial away or email us through the form.</p>
 
               <div class="mb-3n">
@@ -92,7 +92,7 @@ const Contact = () => {
               <div class="info-box  mb-4">
                 <i class="bx bx-envelope"></i>
                 <h3>Send Us an Email</h3>
-                <p><a href="mailto:info@tecstik.com" class="text-black">info@pacific-fin.com</a> </p>
+                <p><a href="mailto:info@pacific-fin.com" class="text-black">info@pacific-fin.com</a> </p>
 
               </div>
             </div>

@@ -1,16 +1,26 @@
 #blockChain {
-  width: 100%;
+  /* width: 100%;
   height: 70vh;
   position: relative;
   background: url("../../Images/car.png") no-repeat;
   background-size: cover;
   padding: 0;
+  margin-top: 5%; */
+  padding: 0;
+  height: 80vh;
   margin-top: 5%;
+  /* width: 100%; */
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* background-color: "red"; */
+  /* margin-bottom: -50%; */
 }
 
 .specials {
   overflow: hidden;
   /* margin-left: -3%; */
+  /* margin-top: 15% */
 }
 
 .specials .nav-tabs {
@@ -111,6 +121,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
+  
 }
 
 #blockChain .hero-content h2 {
@@ -123,6 +134,9 @@
 @media (max-width: 767px) {
   #blockChain .hero-content h2 {
     font-size: 34px;
+  }
+  #blockChain{
+    margin-bottom: -60%;
   }
 }
 

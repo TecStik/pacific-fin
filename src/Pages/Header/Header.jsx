@@ -49,7 +49,7 @@ const Header = () => {
             <Link to="/">Home</Link>
 
             <Link to="/about">About Us</Link>
-            <Link to="/Blockchain">Our Associates</Link>
+            <Link to="/associates">Our Associates</Link>
             <div class="dropdown">
               {/* <div id="services" className="nav-items">
                 Our Associates
@@ -134,7 +134,7 @@ const Header = () => {
             {/* </div>
             </div> */}
 
-            <Link to="/product">Our Services</Link>
+            <Link to="/services">Our Services</Link>
             {/* <Link to="/portfolio">Contact</Link>
 
             <Link to="/careers">Careers</Link>

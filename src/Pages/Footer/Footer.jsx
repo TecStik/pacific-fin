@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import { Link } from "react-router-dom";
+import { Link, BrowserRouter, Routes, Route } from "react-router-dom"; 
+
 
 export default function Footer() {
 
@@ -22,13 +23,13 @@ export default function Footer() {
           <div class="container text-center text-md-start mt-5">
             <div class="row mt-3">
               <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold text-white">Pacific Financial Services PVT. LTD.</h6>
+                <h6 class="fw-bold text-white">Pacific Financial Services (Pvt.) Limited.</h6>
                 <hr class="mb-4 mt-0 d-inline-block mx-auto" style={{ background: "#7c4dff", height: 2, width: 60 }} />
                 <p>
                 Incorporated in the year 2002 under the Companies Ordinance 1984, we are
-dedicated to providing a wide range of Financial Services to High Net Worth
+                dedicated to providing a wide range of Financial Services to High Net Worth
 
-Individuals and Corporate Clients.
+                Individuals and Corporate Clients.
 
                 </p>
               </div>
@@ -42,7 +43,7 @@ Individuals and Corporate Clients.
                   style={{ background: "#7c4dff", height: 2, width: 60 }}
                 />
                 <p>
-                <Link to="/Product" className="link">
+                <Link to="/services" className="link">
                     Business Process Outsourcing
                   </Link>
                 </p>
@@ -57,12 +58,12 @@ Individuals and Corporate Clients.
                   </a>
                 </p> */}
                 <p>
-                <Link to="/Product" className="link">
+                <Link to="/services" className="link">
                     Corporate Financial Consultancy
                   </Link>
                 </p>
                 <p>
-                <Link to="/Product" className="link">
+                <Link to="/services" className="link">
                     Islamic Financial Consultancy
                   </Link>
                 </p>
@@ -126,7 +127,7 @@ Individuals and Corporate Clients.
           class="text-center p-3"
           style={{ background: "rgba(0, 0, 0, 0.2)" }}
         >
-          © 2001 Copyright :
+          © 2023 Copyright :
           <a class="text-white ml-2" href={() => false}>
             pacific-fin.com
           </a>

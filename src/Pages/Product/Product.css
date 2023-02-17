@@ -13,6 +13,14 @@
   /* background-size: cover; */
 }
 
+.just{
+  justify-content: center;
+}
+
+.red{
+  font-size: 200px;
+}
+
 #Product .hero-Product {
   position: absolute;
   bottom: 0;

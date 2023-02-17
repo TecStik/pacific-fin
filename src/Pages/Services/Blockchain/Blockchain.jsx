@@ -5,6 +5,9 @@ import "./Blockchain.css";
 import Sing from '../../Images/sing.png'
 import Tec from '../../Images/tec.png'
 import Ikmt from '../../Images/ikmt.png'
+import BlockchainImage from '../../Images/car.png'
+import { Link } from "react-router-dom";
+
 
 
 const Blockchain = () => {
@@ -14,17 +17,17 @@ const Blockchain = () => {
     <div>
       <Header />
       <section id="blockChain"
-      //  style={{ backgroundImage: `url(${BlockchainImage})` }}
+        style={{ backgroundImage: `url(${BlockchainImage})` }}
       >
         <div class="hero-content" data-aos="fade-up">
         </div>
       </section>
+      {/* <br />
       <br />
       <br />
       <br />
-      <br />
-      <br />
-
+      <br /> */}
+<br />
       {/* <section id="blockChainImage">
         <div class="container" data-aos="fade-up">
           <div class="row">
@@ -67,7 +70,8 @@ const Blockchain = () => {
             </h2>
             {/* <pF */}
           </div>
-
+<br />
+<br />
           <div class="row">
             <div class="col-lg-3">
               <ul class="nav nav-tabs flex-column">
@@ -131,27 +135,27 @@ const Blockchain = () => {
             </div>
 
             <div class="col-lg-9 mt-4 mt-lg-0">
-              
+
               <div class="tab-content ">
                 {trigger === 0 ? (
                   <>
                     <div class="tab-pane active show">
                       <div class="row">
                         <div class="col-lg-8 details order-2 order-lg-1">
-                          
+
                           <h3><strong>Marketing Plus</strong></h3>
                           <p class="fst-italic">
-                          Marketing Plus is a Sister concern of Pacific Financial Services, stationed in Hong Kong. It is divided into 3 distinct sections as follows:
-                          <br></br>
-                          <strong>1. Indenting</strong> – This department acts as an agent between the stakeholders of The
-Products 
-<br></br>
-<strong>2. Trading</strong> – Import, local, sales, re-export
-<br></br>
-<strong>3. Services</strong> – Provides necessary feedback to buyers and sellers regarding a
-particular brand: IKnowMyToys.com.
+                            Marketing Plus is a Sister concern of Pacific Financial Services, stationed in Hong Kong. It is divided into 3 distinct sections as follows:
+                            <br></br>
+                            <strong>1. Indenting</strong> – This department acts as an agent between the stakeholders of The
+                            Products
+                            <br></br>
+                            <strong>2. Trading</strong> – Import, local, sales, re-export
+                            <br></br>
+                            <strong>3. Services</strong> – Provides necessary feedback to buyers and sellers regarding a
+                            particular brand: IKnowMyToys.com.
                           </p>
-                         
+
                         </div>
                         <div class="col-lg-4 text-center order-1 order-lg-2">
                           <img
@@ -172,7 +176,7 @@ particular brand: IKnowMyToys.com.
                         <div class="col-lg-8 details order-2 order-lg-1">
                           <h3>IKnowMyToys</h3>
                           <p class="fst-italic">
-                            IKnowMyToys was the first brand to bring toys from internationally renowned brands to Pakistan. Beginning its Journey in 2012, IKnowMyToys brought all sorts of Internationally Produced collectibles, STEM (Science Technology Engineering Mathematics), Remote Controlled (RC), Dolls & Family Playsets, etc. to Pakistan for the First Time Ever.
+                            <a href="Link">IKnowMyToys.com</a> was the first brand to bring toys from internationally renowned brands to Pakistan. Being among the first Ecommerce Stores in Pakistan when it began its Journey in 2012, IKnowMyToys brought all sorts of Internationally Produced collectibles, STEM (Science Technology Engineering Mathematics), Remote Controlled (RC), Dolls & Family Playsets, etc. to Pakistan for the first time ever.
                           </p>
                         </div>
                         <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -194,13 +198,13 @@ particular brand: IKnowMyToys.com.
                         <div class="col-lg-8 details order-2 order-lg-1">
                           <h3>TecStik</h3>
                           <p class="fst-italic">
-                          TecStik is The Fintech Arm of Pacific Financial Services with experience in
-working with several local and international clients. It offers services
-related to:
-MobileApps development
-Web App Development
-Cloud computing
-Digital Marketing
+                            TecStik.com is The Fintech Arm of Pacific Financial Services with experience in
+                            working with several local and international clients. It offers services
+                            related to:
+                            Mobile App development,
+                            Web App Development,
+                            Cloud computing,
+                            Digital Marketing.
                           </p>
                           {/* <p>
                             <h5>Decentralized Finance (DeFi)</h5>

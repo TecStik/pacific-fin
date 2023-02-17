@@ -21,7 +21,7 @@ export const App = () => {
     
       <Helmet>
         <title>Pacific Financial Services</title>
-        <meta name="description" content="Propelling Business Growth" />
+        <meta name="description" content="Financial Consultancy for Business" />
         <link rel="icon" href="./favicon.ico" type="image/x-icon" />
         <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
         <link rel="icon" href="./favicon.ico" />
@@ -33,14 +33,14 @@ export const App = () => {
         <Route path="/portfolio" element={<Portfolio />} />
 
         <Route>
-          <Route path="blockchain" element={<Blockchain />} />
+          <Route path="associates" element={<Blockchain />} />
           <Route path="webAndMobile" element={<WebAndMobile />} />
           <Route path="mobileApp" element={<MobileApp />} />
           <Route path="cloud" element={<Cloud />} />
         </Route>
 
         <Route path="contact" element={<Contact />} />
-        <Route path="product" element={<Product />} />
+        <Route path="services" element={<Product />} />
         <Route path="Careers" element={<Careers />} />
         <Route path="blog" element={<Blog />} />
       </Routes>
