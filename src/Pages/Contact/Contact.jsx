@@ -79,7 +79,7 @@ const Contact = () => {
           <div class="row">
             <div class="col-lg-6">
               <h3>Let's strengthen your organization together</h3>
-              <p>Just dial away or email us through the form.</p>
+              <p>Just dial away or email us using the form.</p>
 
               <div class="mb-3n">
                 <h3>Send Us an Email</h3>
