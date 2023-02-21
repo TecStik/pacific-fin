@@ -3,7 +3,7 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 import { Col, Row } from "antd";
 import logo from "../Images/logo2.png";
-
+import { HashLink } from 'react-router-hash-link';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,17 +39,17 @@ const Header = () => {
         >
           <span className="nav-logo" id="nav-logo">
 
-            <Link to="/">
-              <img src={logo}  height={55} width={55} />
-            </Link>
+            <HashLink to="/#NewHome">
+              <img src={logo} height={55} width={55} />
+            </HashLink>
           </span>
-          <span id="logotext"><Link to="/" id="textColor">Pacific Financial Services (Pvt.) Limited</Link></span>
+          <span id="logotext"><HashLink to="/#NewHome" id="textColor">Pacific Financial Services (Pvt.) Limited</HashLink></span>
 
           <div className={`nav-items ${isOpen && "open"}`}>
-            <Link to="/">Home</Link>
+            <HashLink to="/#NewHome">Home</HashLink>
+            <HashLink to="/about/#about">About Us</HashLink>
+            <HashLink to="/associates/#associates">Our Associates</HashLink>
 
-            <Link to="/about">About Us</Link>
-            <Link to="/associates">Our Associates</Link>
             <div class="dropdown">
               {/* <div id="services" className="nav-items">
                 Our Associates
@@ -134,12 +134,13 @@ const Header = () => {
             {/* </div>
             </div> */}
 
-            <Link to="/services">Our Services</Link>
+            <HashLink to="/services/#services">Our Services</HashLink>
             {/* <Link to="/portfolio">Contact</Link>
 
             <Link to="/careers">Careers</Link>
             <Link to="/blog">Blog</Link> */}
-            <Link to="/contact">Contact Us</Link>
+            <HashLink to="/contact/#contact">Contact Us</HashLink>
+            {/*  <HashLink to="/about/#about">About Us</HashLink> */}
           </div>
           <div
             className={`nav-toggle ${isOpen && "open"}`}

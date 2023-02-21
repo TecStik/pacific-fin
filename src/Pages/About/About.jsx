@@ -65,13 +65,12 @@ const About = () => {
               <p>
                 <br />
                 Our Mission is to serve our Clients with creativity, enthusiasm, energy and
-vision. This principle lies in the heart of our work.
-Our objective is to build long-lasting customer-relationships by providing
-innovative and dynamic financial services in the commercial arena. <br></br> <br></br>
-Incorporated in the year 2002 under the Companies Ordinance 1984, we are
-dedicated to providing a wide range of Financial Services to High Net Worth
-
-Individuals and Corporate Clients.
+                vision. This principle lies in the heart of our work.
+                Our objective is to build long-lasting customer-relationships by providing
+                innovative and dynamic financial services in the commercial arena. <br></br> <br></br>
+                Incorporated in the year 2002 under the Companies Ordinance 1984, we are
+                dedicated to providing a wide range of Financial Services to High Net Worth
+                Individuals and Corporate Clients.
                 <br />
                 <br />
 
