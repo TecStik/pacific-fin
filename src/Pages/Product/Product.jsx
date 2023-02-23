@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import "./Product.css";
@@ -6,9 +6,28 @@ import KollectIt from "../Images/K-icon.png";
 import Ijma from "../Images/Ijma.png";
 import Swift_logo from "../Images/Swift.png";
 import products from "../Images/products.jpeg";
+import { useSearchParams } from "react-router-dom";
+
 
 const Product = () => {
   const [trigger, setTrigger] = useState(0);
+
+
+  const [searchParams, setSearchParams] = useSearchParams();
+  const currentTab = searchParams.get("tab") || "0";
+
+  const changeTab = (tab) => {
+    searchParams.set("tab", tab);
+    setSearchParams(searchParams);
+  };
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant",
+    });
+  }, [searchParams]);
 
   return (
     <div>

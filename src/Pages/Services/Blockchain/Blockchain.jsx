@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Footer from "../../Footer/Footer";
 import Header from "../../Header/Header";
 import "./Blockchain.css";
@@ -6,12 +6,28 @@ import Sing from '../../Images/sing.png'
 import Tec from '../../Images/tec.png'
 import Ikmt from '../../Images/ikmt.png'
 import BlockchainImage from '../../Images/car.png'
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
-
+import { useSearchParams } from "react-router-dom";
 
 const Blockchain = () => {
   const [trigger, setTrigger] = useState(0);
+
+  const [searchParams, setSearchParams] = useSearchParams();
+  const currentTab = searchParams.get("tab") || "0";
+
+  const changeTab = (tab) => {
+    searchParams.set("tab", tab);
+    setSearchParams(searchParams);
+  };
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant",
+    });
+  }, [searchParams]);
 
   return (
     <div>
@@ -27,7 +43,7 @@ const Blockchain = () => {
       <br />
       <br />
       <br /> */}
-<br />
+      <br />
       {/* <section id="blockChainImage">
         <div class="container" data-aos="fade-up">
           <div class="row">
@@ -70,8 +86,8 @@ const Blockchain = () => {
             </h2>
             {/* <pF */}
           </div>
-<br />
-<br />
+          <br />
+          <br />
           <div class="row">
             <div class="col-lg-3">
               <ul class="nav nav-tabs flex-column">

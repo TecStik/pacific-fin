@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState ,useEffect} from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import "./Contact.css";
@@ -7,6 +7,8 @@ import axios from "axios";
 import { ToastContainer, toast } from 'react-toastify';
 import { message, Spin } from 'antd';
 
+import { useSearchParams } from "react-router-dom";
+
 const Contact = () => {
 
   const [loading, setloading] = useState(true);
@@ -14,6 +16,23 @@ const Contact = () => {
     window.open("https://goo.gl/maps/GX3euzu28RpAkaPy6", "_blank");
   }
 
+
+    
+  const [searchParams, setSearchParams] = useSearchParams();
+  const currentTab = searchParams.get("tab") || "0";
+
+  const changeTab = (tab) => {
+    searchParams.set("tab", tab);
+    setSearchParams(searchParams);
+  };
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant",
+    });
+  }, [searchParams]);
 
 
   //   function emailSnd(doc) {

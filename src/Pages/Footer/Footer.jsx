@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { Link, BrowserRouter, Routes, Route } from "react-router-dom"; 
+import { Link, BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 export default function Footer() {
@@ -13,9 +13,7 @@ export default function Footer() {
 
         <section class="d-flex justify-content-between p-4" style={{ background: "#6351ce" }}>
           <div class="me-5"></div>
-          <div>
-            
-          </div>
+          <div></div>
         </section>
 
 
@@ -26,11 +24,9 @@ export default function Footer() {
                 <h6 class="fw-bold text-white">Pacific Financial Services (Pvt.) Limited.</h6>
                 <hr class="mb-4 mt-0 d-inline-block mx-auto" style={{ background: "#7c4dff", height: 2, width: 60 }} />
                 <p>
-                Incorporated in the year 2002 under the Companies Ordinance 1984, we are
-                dedicated to providing a wide range of Financial Services to High Net Worth
-
-                Individuals and Corporate Clients.
-
+                  Incorporated in the year 2002 under the Companies Ordinance 1984, we are
+                  dedicated to providing a wide range of Financial Services to High Net Worth
+                  Individuals and Corporate Clients.
                 </p>
               </div>
 
@@ -43,7 +39,7 @@ export default function Footer() {
                   style={{ background: "#7c4dff", height: 2, width: 60 }}
                 />
                 <p>
-                <Link to="/services" className="link">
+                  <Link to="/services?tab=6" className="link">
                     Business Process Outsourcing
                   </Link>
                 </p>
@@ -58,12 +54,12 @@ export default function Footer() {
                   </a>
                 </p> */}
                 <p>
-                <Link to="/services" className="link">
+                  <Link to="/services?tab=6" className="link">
                     Corporate Financial Consultancy
                   </Link>
                 </p>
                 <p>
-                <Link to="/services" className="link">
+                  <Link to="/services?tab=6" className="link">
                     Islamic Financial Consultancy
                   </Link>
                 </p>
