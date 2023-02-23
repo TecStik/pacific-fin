@@ -6,32 +6,10 @@ import map from "../Images/map.PNG";
 import axios from "axios";
 import { ToastContainer, toast } from 'react-toastify';
 import { message, Spin } from 'antd';
-import { useSearchParams } from "react-router-dom";
-import { useEffect } from "react";
-
 
 const Contact = () => {
 
   const [loading, setloading] = useState(true);
-
-
-  
-  const [searchParams, setSearchParams] = useSearchParams();
-  const currentTab = searchParams.get("tab") || "0";
-
-  const changeTab = (tab) => {
-    searchParams.set("tab", tab);
-    setSearchParams(searchParams);
-  };
-
-  useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: "instant",
-    });
-  }, [searchParams]);
-
   function maplink() {
     window.open("https://goo.gl/maps/GX3euzu28RpAkaPy6", "_blank");
   }

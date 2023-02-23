@@ -8,31 +8,10 @@ import Ikmt from '../../Images/ikmt.png'
 import BlockchainImage from '../../Images/car.png'
 import { Link } from "react-router-dom";
 
-import { useSearchParams } from "react-router-dom";
-import { useEffect } from "react";
 
 
 const Blockchain = () => {
   const [trigger, setTrigger] = useState(0);
-
-
-    
-  const [searchParams, setSearchParams] = useSearchParams();
-  const currentTab = searchParams.get("tab") || "0";
-
-  const changeTab = (tab) => {
-    searchParams.set("tab", tab);
-    setSearchParams(searchParams);
-  };
-
-  useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: "instant",
-    });
-  }, [searchParams]);
-
 
   return (
     <div>
