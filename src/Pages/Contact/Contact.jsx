@@ -1,4 +1,4 @@
-import React, { useRef, useState ,useEffect} from "react";
+import React, { useRef, useState, useEffect } from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import "./Contact.css";
@@ -17,7 +17,6 @@ const Contact = () => {
   }
 
 
-    
   const [searchParams, setSearchParams] = useSearchParams();
   const currentTab = searchParams.get("tab") || "0";
 
@@ -130,7 +129,6 @@ const Contact = () => {
               <img
                 title="myFrame"
                 src={map}
-
                 id="locationMap"
                 // height="200"
                 class="mb-4 mb-lg-0"
